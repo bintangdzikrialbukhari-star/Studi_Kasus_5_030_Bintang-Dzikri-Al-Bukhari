@@ -7,18 +7,16 @@ Program Studi : Sistem Informasi
 Program ini saya buat untuk menghitung total biaya parkir kendaraan berdasarkan jenis kendaraan (Mobil atau Motor) dan durasi parkir. Pengguna memasukkan jenis kendaraan serta jam masuk dan jam keluar (format 24 jam). Program kemudian menghitung lama waktu parkir dan mengkalkulasi total biaya berdasarkan tarif per jam yang telah ditentukan (Mobil: Rp5.000/jam, Motor: Rp3.000/jam), lalu menampilkan rincian biaya parkir secara lengkap.
 
 ## Materi yang ada di program ini.
-#### Function (def) = hitung_biaya_parkir(jenis_kendaraan, lama_parkir)
+#### Function (def)
 dipergunakan untuk membungkus logika perhitungan biaya parkir dan mengembalikan nilai total biaya (return total_biaya) agar kode program lebih terstruktur dan modular.
 #### If/Elif/Else
 digunakan dalam menentukan tarif per jam berdasarkan jenis kendaraan yang diinputkan pengguna.
-#### String Method (.lower())
+#### String Method (lower)
 digunakan untuk mengubah huruf pada input jenis kendaraan menjadi huruf kecil semua, sehingga input bersifat case-insensitive (misal: "MOBIL", "Mobil", maupun
 "mobil" tetap terdeteksi sebagai mobil).
-#### Konversi Tipe Data (int())
+#### Konversi Tipe Data (int)
 digunakan untuk mengubah input jam masuk dan jam keluar dari bentuk teks (string) menjadi angka bulat (integer) agar dapat dilakukan operasi matematika.
-#### Operator Aritmatika (- dan *)
-digunakan untuk menghitung lama parkir (keluar - masuk) dan menghitung perkalian total biaya (tarif_per_jam * lama_parkir).
-#### Input & Output (input() dan print())
+#### Input & Output (input dan print)
 digunakan untuk menerima masukan data dari pengguna dan menampilkan rincian detail biaya parkir ke layar.
 
 ### Hasil Output
