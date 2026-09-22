@@ -20,11 +20,13 @@ digunakan untuk mengubah input jam masuk dan jam keluar dari bentuk teks (string
 digunakan untuk menerima masukan data dari pengguna dan menampilkan rincian detail biaya parkir ke layar.
 
 ### Hasil Output
-<img width="647" height="70" alt="Screenshot 2026-09-22 184416" src="https://github.com/user-attachments/assets/4d3f17e6-82aa-4178-9dc8-0485a699c6f8" />
+<img width="640" height="77" alt="image" src="https://github.com/user-attachments/assets/603468ca-6784-4ba5-aa86-f1100ee879fd" />
+
 
 Ini adalah hasil output dimana pengguna diminta memasukan jam dan jenis kendaraan
 
 <img width="643" height="237" alt="Screenshot 2026-09-22 184431" src="https://github.com/user-attachments/assets/fc83a428-2345-4d93-9366-39d9cb63010b" />
+
 
 ini adalah hasil output yang menampilkan semua data yang telah di masukan seperti struk 
 
