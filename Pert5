@@ -1,0 +1,37 @@
+def hitung_biaya_parkir(jenis_kendaraan, lama_parkir):
+
+    if jenis_kendaraan.lower() == "mobil":
+        tarif_per_jam = 5000
+    elif jenis_kendaraan.lower() == "motor":
+        tarif_per_jam = 3000
+    else:
+        tarif_per_jam = 0
+
+    # ini digunakan untuk menghitung total biaya parkir
+    total_biaya = tarif_per_jam * lama_parkir
+    return total_biaya
+
+# program dibawah ini digunakan untuk menerima input dari pengguna
+jenis = input("Masukkan jenis kendaraan motor/mobil = ")
+masuk = float(input("Masukkan jam masuk (00 sampai 24) = "))
+keluar = float(input("Masukkan jam keluar (00 saampai 24) = "))
+
+# ini untuk menyimpan rumus berapa lama kendaraan parkir
+lama = keluar - masuk
+
+# function ini untuk menyimpan hasil pengembalian nilai (return)
+biaya_total = hitung_biaya_parkir(jenis, lama)
+
+# menampilkan struk dari parkir
+print("\n")
+print("=" * 70)
+print("==                       Struk Parkir Swalayan                      ==")
+print("=" * 70)
+print("Jenis Kendaraan = ", jenis)
+print("Jam Masuk       = ", masuk)
+print("Jam Keluar      = ", keluar)
+print("Lama Parkir     = ", lama, "jam")
+print("Total Biaya     = Rp", biaya_total)
+print("=" * 70)
+print("==                          Terima Kasih                            ==")
+print("=" * 70)
